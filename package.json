@@ -1,0 +1,38 @@
+{
+  "name": "@lowfatcats/moment-utils",
+  "version": "0.4.2",
+  "description": "Date conversion and parsing utilities using moment",
+  "engines": {
+    "node": ">= 6.10"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc jasmine"
+  },
+  "nyc": {
+    "check-coverage": true,
+    "per-file": true,
+    "include": [
+      "lib/**/*.js"
+    ],
+    "reporter": [
+      "text",
+      "html"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LowFatCats/moment-utils"
+  },
+  "author": "Gabriel Nicolae <gabriel@designbylfc.com>",
+  "license": "MIT",
+  "dependencies": {
+    "moment": "^2.24.0",
+    "moment-timezone": "^0.5.27"
+  },
+  "devDependencies": {
+    "jasmine": "^2.9.0",
+    "jasmine-expect": "^3.8.3",
+    "nyc": "^15.0.0"
+  }
+}
