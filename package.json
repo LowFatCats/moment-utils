@@ -2,6 +2,7 @@
   "name": "@lowfatcats/moment-utils",
   "version": "0.4.2",
   "description": "Date conversion and parsing utilities using moment",
+  "keywords": ["date utils", "momentjs", "moment", "convert date"],
   "engines": {
     "node": ">= 6.10"
   },
